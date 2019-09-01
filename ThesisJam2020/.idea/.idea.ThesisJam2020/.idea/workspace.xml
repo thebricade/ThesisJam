@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39b81984-5b95-4c1f-a4a6-11ffd0af03a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ThesisJam2020/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThesisJam2020/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Depth.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Depth.shader" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,14 +16,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/Depth.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="359">
+              <caret line="236" column="1" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
               <folding>
-                <marker date="1567358723631" expanded="true" signature="22:1115" ph="{...}" />
-                <marker date="1567358723631" expanded="true" signature="43:96" ph="{...}" />
-                <marker date="1567358723631" expanded="true" signature="115:1113" ph="{...}" />
-                <marker date="1567358723631" expanded="true" signature="211:1107" ph="{...}" />
-                <marker date="1567358723631" expanded="true" signature="234:1092" ph="{...}" />
+                <marker date="1567359853769" expanded="true" signature="106:5160" ph="{...}" />
+                <marker date="1567359853769" expanded="true" signature="223:277" ph="{...}" />
+                <marker date="1567359853769" expanded="true" signature="390:1439" ph="{...}" />
+                <marker date="1567359853769" expanded="true" signature="421:554" ph="/* ---------------------------------------【通道0 || Pass 0】------------------------------------ ... */" />
+                <marker date="1567359853769" expanded="true" signature="564:752" ph="{...}" />
+                <marker date="1567359853769" expanded="true" signature="605:741" ph="{...}" />
+                <marker date="1567359853769" expanded="true" signature="757:892" ph="/* ---------------------------------------【通道1 || Pass 1】------------------------------------ ... */" />
+                <marker date="1567359853769" expanded="true" signature="902:1091" ph="{...}" />
+                <marker date="1567359853769" expanded="true" signature="946:1082" ph="{...}" />
+                <marker date="1567359853769" expanded="true" signature="1096:1233" ph="/* ---------------------------------------【通道2 || Pass 2】------------------------------------ ... */" />
+                <marker date="1567359853769" expanded="true" signature="1243:1436" ph="{...}" />
+                <marker date="1567359853769" expanded="true" signature="1287:1427" ph="{...}" />
+                <marker date="1567359853769" expanded="true" signature="1542:5137" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -135,12 +129,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567358686603</updated>
-      <workItem from="1567358697551" duration="623000" />
+      <workItem from="1567358697551" duration="965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="623000" />
+    <option name="totallyTimeSpent" value="965000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -153,22 +147,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -178,9 +172,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="LuaJ" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Errors In Solution" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -204,14 +198,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/Depth.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="359">
+          <caret line="236" column="1" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
           <folding>
-            <marker date="1567358723631" expanded="true" signature="22:1115" ph="{...}" />
-            <marker date="1567358723631" expanded="true" signature="43:96" ph="{...}" />
-            <marker date="1567358723631" expanded="true" signature="115:1113" ph="{...}" />
-            <marker date="1567358723631" expanded="true" signature="211:1107" ph="{...}" />
-            <marker date="1567358723631" expanded="true" signature="234:1092" ph="{...}" />
+            <marker date="1567359853769" expanded="true" signature="106:5160" ph="{...}" />
+            <marker date="1567359853769" expanded="true" signature="223:277" ph="{...}" />
+            <marker date="1567359853769" expanded="true" signature="390:1439" ph="{...}" />
+            <marker date="1567359853769" expanded="true" signature="421:554" ph="/* ---------------------------------------【通道0 || Pass 0】------------------------------------ ... */" />
+            <marker date="1567359853769" expanded="true" signature="564:752" ph="{...}" />
+            <marker date="1567359853769" expanded="true" signature="605:741" ph="{...}" />
+            <marker date="1567359853769" expanded="true" signature="757:892" ph="/* ---------------------------------------【通道1 || Pass 1】------------------------------------ ... */" />
+            <marker date="1567359853769" expanded="true" signature="902:1091" ph="{...}" />
+            <marker date="1567359853769" expanded="true" signature="946:1082" ph="{...}" />
+            <marker date="1567359853769" expanded="true" signature="1096:1233" ph="/* ---------------------------------------【通道2 || Pass 2】------------------------------------ ... */" />
+            <marker date="1567359853769" expanded="true" signature="1243:1436" ph="{...}" />
+            <marker date="1567359853769" expanded="true" signature="1287:1427" ph="{...}" />
+            <marker date="1567359853769" expanded="true" signature="1542:5137" ph="{...}" />
           </folding>
         </state>
       </provider>
