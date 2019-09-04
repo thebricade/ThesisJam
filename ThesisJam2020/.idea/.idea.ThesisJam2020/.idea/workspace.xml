@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39b81984-5b95-4c1f-a4a6-11ffd0af03a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ThesisJam2020/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThesisJam2020/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Depth.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Depth.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mats/DepthMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mats/DepthMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GeneralClass/SpriteEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GeneralClass/SpriteEffect.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/Depth.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="236" column="1" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
+            <state relative-caret-position="30">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="21" />
               <folding>
                 <marker date="1567359853769" expanded="true" signature="106:5160" ph="{...}" />
                 <marker date="1567359853769" expanded="true" signature="223:277" ph="{...}" />
@@ -37,18 +38,112 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFade.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1705">
+              <caret line="172" column="44" selection-start-line="172" selection-start-column="44" selection-end-line="172" selection-end-column="44" />
+              <folding>
+                <marker date="1567366813340" expanded="true" signature="6:78" ph="..." />
+                <marker date="1567366813340" expanded="true" signature="176:6880" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="235:933" ph="Variables" />
+                <marker date="1567366813340" expanded="true" signature="1010:1335" ph="MaterialGetAndSet" />
+                <marker date="1567366813340" expanded="true" signature="1057:1320" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="1075:1314" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="1122:1272" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="1342:6878" ph="Functions" />
+                <marker date="1567366813340" expanded="true" signature="1364:1610" ph="/* -----------------------------------------【Start()函数】--------------------------------------------- ... */" />
+                <marker date="1567366813340" expanded="true" signature="1627:1988" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="1642:1795" ph="/* 依次赋值 ... */" />
+                <marker date="1567366813340" expanded="true" signature="1913:1982" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="1995:2241" ph="/* -------------------------------------【OnRenderImage()函数】------------------------------------ ... */" />
+                <marker date="1567366813340" expanded="true" signature="2318:5340" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="2382:5171" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="2405:2460" ph="/* 【0】参数准备 ... */" />
+                <marker date="1567366813340" expanded="true" signature="2900:2993" ph="/* 【1】处理Shader的通道0，用于降采样 ||Pass 0,for down sample ... */" />
+                <marker date="1567366813340" expanded="true" signature="3442:4965" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="3473:3516" ph="/* 【2.1】Shader参数赋值 ... */" />
+                <marker date="1567366813340" expanded="true" signature="3716:3813" ph="/* 【2.2】处理Shader的通道1，垂直方向模糊处理 || Pass1,for vertical blur ... */" />
+                <marker date="1567366813340" expanded="true" signature="4316:4402" ph="/* 【2.3】处理Shader的通道2，竖直方向模糊处理 || Pass2,for horizontal blur ... */" />
+                <marker date="1567366813340" expanded="true" signature="4672:4756" ph="/* 【2.4】得到pass0、pass1和pass2的数据都已经准备好的renderBuffer ... */" />
+                <marker date="1567366813340" expanded="true" signature="5230:5334" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="5349:5594" ph="/* -----------------------------------------【OnValidate()函数】-------------------------------------- ... */" />
+                <marker date="1567366813340" expanded="true" signature="5616:5790" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="5631:5784" ph="/* 将编辑器中的值赋值回来，确保在编辑器中值的改变立刻让结果生效 ... */" />
+                <marker date="1567366813340" expanded="true" signature="5797:6024" ph="/* -----------------------------------------【Update()函数】-------------------------------------- ... */" />
+                <marker date="1567366813340" expanded="true" signature="6042:6466" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="6105:6288" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="6128:6265" ph="/* 赋值 ... */" />
+                <marker date="1567366813340" expanded="true" signature="6382:6451" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="6473:6718" ph="/* -----------------------------------------【OnDisable()函数】--------------------------------------- ... */" />
+                <marker date="1567366813340" expanded="true" signature="6739:6864" ph="{...}" />
+                <marker date="1567366813340" expanded="true" signature="6770:6856" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DepthChanging.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1567363596267" expanded="false" signature="6:78" ph="..." />
+                <marker date="1567363596267" expanded="true" signature="122:296" ph="{...}" />
+                <marker date="1567363596267" expanded="true" signature="194:215" ph="{...}" />
+                <marker date="1567363596267" expanded="true" signature="273:294" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GeneralClass/SpriteEffect.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-991">
+              <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+              <folding>
+                <marker date="1567360361851" expanded="false" signature="6:126" ph="..." />
+                <marker date="1567360361851" expanded="true" signature="169:2899" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="176:345" ph="/* to use this script, first attach this script to the item that you want it to do the effect, ... */" />
+                <marker date="1567360361851" expanded="true" signature="496:587" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="714:814" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="840:1099" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="947:1093" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="1016:1083" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="1126:1543" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="1157:1537" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="1215:1277" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="1326:1388" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="1453:1527" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="1576:1978" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="1799:1972" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="2015:2416" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="2237:2410" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="2471:2897" ph="{...}" />
+                <marker date="1567360361851" expanded="true" signature="2714:2891" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GeneralClass/SpriteEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DepthChanging.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Depth.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Shaders/Depth.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GeneralClass/SpriteEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFade.cs" />
       </list>
     </option>
   </component>
@@ -74,6 +169,17 @@
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="GeneralClass" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -129,12 +235,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567358686603</updated>
-      <workItem from="1567358697551" duration="965000" />
+      <workItem from="1567358697551" duration="6699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="965000" />
+    <option name="totallyTimeSpent" value="6699000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -196,10 +302,38 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GeneralClass/SpriteEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-991">
+          <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+          <folding>
+            <marker date="1567360361851" expanded="false" signature="6:126" ph="..." />
+            <marker date="1567360361851" expanded="true" signature="169:2899" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="176:345" ph="/* to use this script, first attach this script to the item that you want it to do the effect, ... */" />
+            <marker date="1567360361851" expanded="true" signature="496:587" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="714:814" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="840:1099" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="947:1093" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="1016:1083" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="1126:1543" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="1157:1537" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="1215:1277" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="1326:1388" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="1453:1527" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="1576:1978" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="1799:1972" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="2015:2416" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="2237:2410" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="2471:2897" ph="{...}" />
+            <marker date="1567360361851" expanded="true" signature="2714:2891" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/Depth.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="236" column="1" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="21" />
           <folding>
             <marker date="1567359853769" expanded="true" signature="106:5160" ph="{...}" />
             <marker date="1567359853769" expanded="true" signature="223:277" ph="{...}" />
@@ -214,6 +348,61 @@
             <marker date="1567359853769" expanded="true" signature="1243:1436" ph="{...}" />
             <marker date="1567359853769" expanded="true" signature="1287:1427" ph="{...}" />
             <marker date="1567359853769" expanded="true" signature="1542:5137" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DepthChanging.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1567363596267" expanded="false" signature="6:78" ph="..." />
+            <marker date="1567363596267" expanded="true" signature="122:296" ph="{...}" />
+            <marker date="1567363596267" expanded="true" signature="194:215" ph="{...}" />
+            <marker date="1567363596267" expanded="true" signature="273:294" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1705">
+          <caret line="172" column="44" selection-start-line="172" selection-start-column="44" selection-end-line="172" selection-end-column="44" />
+          <folding>
+            <marker date="1567366813340" expanded="true" signature="6:78" ph="..." />
+            <marker date="1567366813340" expanded="true" signature="176:6880" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="235:933" ph="Variables" />
+            <marker date="1567366813340" expanded="true" signature="1010:1335" ph="MaterialGetAndSet" />
+            <marker date="1567366813340" expanded="true" signature="1057:1320" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="1075:1314" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="1122:1272" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="1342:6878" ph="Functions" />
+            <marker date="1567366813340" expanded="true" signature="1364:1610" ph="/* -----------------------------------------【Start()函数】--------------------------------------------- ... */" />
+            <marker date="1567366813340" expanded="true" signature="1627:1988" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="1642:1795" ph="/* 依次赋值 ... */" />
+            <marker date="1567366813340" expanded="true" signature="1913:1982" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="1995:2241" ph="/* -------------------------------------【OnRenderImage()函数】------------------------------------ ... */" />
+            <marker date="1567366813340" expanded="true" signature="2318:5340" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="2382:5171" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="2405:2460" ph="/* 【0】参数准备 ... */" />
+            <marker date="1567366813340" expanded="true" signature="2900:2993" ph="/* 【1】处理Shader的通道0，用于降采样 ||Pass 0,for down sample ... */" />
+            <marker date="1567366813340" expanded="true" signature="3442:4965" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="3473:3516" ph="/* 【2.1】Shader参数赋值 ... */" />
+            <marker date="1567366813340" expanded="true" signature="3716:3813" ph="/* 【2.2】处理Shader的通道1，垂直方向模糊处理 || Pass1,for vertical blur ... */" />
+            <marker date="1567366813340" expanded="true" signature="4316:4402" ph="/* 【2.3】处理Shader的通道2，竖直方向模糊处理 || Pass2,for horizontal blur ... */" />
+            <marker date="1567366813340" expanded="true" signature="4672:4756" ph="/* 【2.4】得到pass0、pass1和pass2的数据都已经准备好的renderBuffer ... */" />
+            <marker date="1567366813340" expanded="true" signature="5230:5334" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="5349:5594" ph="/* -----------------------------------------【OnValidate()函数】-------------------------------------- ... */" />
+            <marker date="1567366813340" expanded="true" signature="5616:5790" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="5631:5784" ph="/* 将编辑器中的值赋值回来，确保在编辑器中值的改变立刻让结果生效 ... */" />
+            <marker date="1567366813340" expanded="true" signature="5797:6024" ph="/* -----------------------------------------【Update()函数】-------------------------------------- ... */" />
+            <marker date="1567366813340" expanded="true" signature="6042:6466" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="6105:6288" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="6128:6265" ph="/* 赋值 ... */" />
+            <marker date="1567366813340" expanded="true" signature="6382:6451" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="6473:6718" ph="/* -----------------------------------------【OnDisable()函数】--------------------------------------- ... */" />
+            <marker date="1567366813340" expanded="true" signature="6739:6864" ph="{...}" />
+            <marker date="1567366813340" expanded="true" signature="6770:6856" ph="{...}" />
           </folding>
         </state>
       </provider>

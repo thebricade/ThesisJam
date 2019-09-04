@@ -6,11 +6,13 @@
     <e p="D:\Projects\ThesisJam\ThesisJam\ThesisJam2020" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="GeneralClass" t="Include">
-          <e p="MonoSingleton.cs" t="Include" />
-          <e p="SpriteEffect.cs" t="Include" />
-        </e>
         <e p="Scripts" t="Include">
+          <e p="CameraFade.cs" t="Include" />
+          <e p="DepthChanging.cs" t="Include" />
+          <e p="GeneralClass" t="Include">
+            <e p="MonoSingleton.cs" t="Include" />
+            <e p="SpriteEffect.cs" t="Include" />
+          </e>
           <e p="PointInteraction.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
