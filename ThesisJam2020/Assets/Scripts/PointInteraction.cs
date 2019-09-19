@@ -7,7 +7,8 @@ public class PointInteraction : MonoBehaviour
     private SpriteEffect _spriteEffect, _spriteEffectPair;
 
     public GameObject pairObject;
-   
+
+     
     
    // public GameObject mainWindowOutline;
     
@@ -35,6 +36,7 @@ public class PointInteraction : MonoBehaviour
         _spriteEffect.numberAssignment(0.2f,SpriteEffect.EffectType.FadeImage,0);
         _spriteEffectPair.numberAssignment(0.2f,SpriteEffect.EffectType.ShowImage,0);
         //if(this.GetComponent<SpriteRenderer>().color)
+        
     }
 
     public void attack()

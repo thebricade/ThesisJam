@@ -8,7 +8,7 @@ public class SpriteEffect : MonoBehaviour
 {
     //to use this script, first attach this script to the item that you want it to do the effect,
     //and then assign the numbers to it so it will work just like you want.
-    
+    private int colorWindow = 0;
     private bool effectStart = true;
     private float degree;
     private float speed;
@@ -87,6 +87,7 @@ public class SpriteEffect : MonoBehaviour
             this.GetComponent<SpriteRenderer>().color = newColor;
             effectStart = !effectStart;
             Destroy(gameObject.GetComponent<BoxCollider2D>());
+            colorWindow++;
             Destroy(this);
         }
     }
